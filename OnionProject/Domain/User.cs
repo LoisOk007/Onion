@@ -1,6 +1,6 @@
 
 
-public class User(int id, string name,string email,int roleId)
+public class User()
 {
     public int Id { get; set; }
     public int RoleID { get; set; }
