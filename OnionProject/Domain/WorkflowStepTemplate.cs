@@ -10,11 +10,11 @@ public class WorkflowStepTemplate()
     {
         if(orderId==nuint||userId==nuint||roleId==nuint||name=="")
         {
-            throw new ArgumentNullExeption("Введённые данные были пустыми или не полностью заполнеными.");
-            Order=orderId;
-            UserID=userId;
-            RoleID=roleId;
-            Name=name;
+            throw new ArgumentNullExeption("Введённые данные были пустыми или не полностью");
         }
+        Order=orderId;
+        UserID=userId;
+        RoleID=roleId;
+        Name=name;
     }
 }
